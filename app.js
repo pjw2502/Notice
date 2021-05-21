@@ -17,9 +17,9 @@ async function sendNotify (text,desp) {
   })
 }
 
-await sendNotify("你好");
-async function start() {
 
+async function start() {
+  await sendNotify("你好");
   if (serverJ) {
         await sendNotify("你好");
   }
