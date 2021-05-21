@@ -1,11 +1,7 @@
 name: Github JD-sign bot
 
 on:
-    push:
-        branches:
-            - master
-    schedule:
-        - cron: '5 16 * * *'
+    push
 jobs:
     build:
         runs-on: ubuntu-latest
